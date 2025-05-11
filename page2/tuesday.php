@@ -3,22 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Monday</title>
-    <link rel="stylesheet" href="/AD-TASK1/page/assets/css/style.css">
+    <title>Tuesday</title>
+    <link rel="stylesheet" href="/AD-TASK1/page2/assets/css/style.css">
 </head>
 <body>
     <div class="container">
-        <h1>Monday Schedule</h1>
+        <h1>Tuesday Schedule</h1>
         <div class="schedule">
             <?php
-            $day = "Monday";
+            $day = "Tuesday";
             $schedule = [];
 
-            if ($day == "Monday") {
+            if ($day == "Tuesday") {
                 $schedule = [
-                "7:00 AM - 8:50 AM | Mobile App Development (F1209)",
-                "10:00 AM - 12:50 PM | App Development (F1203)",
-                "1:00 PM - 2:50 PM | Purposive Communication (F611)"
+                "7:00 AM - 8:50 AM | Professional Development",
+                "10:00 AM - 12:50 PM | App Development Laboratory",
+                "1:00 PM - 3:40 PM | Physics 1 Lecture"
                 ];
             }
 

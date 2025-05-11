@@ -9,14 +9,22 @@
 <body>
     <h1>My Schedule</h1>
     <div class="days-container">
-        <?php
-        $days = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'];
-        for ($i = 0; $i < count($days); $i++) {
-            $dayLower = strtolower($days[$i]);
-            $link = $dayLower === 'monday' ? './page/monday.php' : '#';
-            echo '<a class="day-link" href="' . $link . '">' . $days[$i] . '</a>';
-        }
-        ?>
-    </div>
+    <?php
+    $dayFolders = [
+        "Monday" => "./page/monday.php",
+        "Tuesday" => "./page2/tuesday.php",
+        "Wednesday" => "page3",
+        "Thursday" => "page4",
+        "Friday" => "page5",
+        "Saturday" => "page6",
+        "Sunday" => "page7"
+    ];
+
+    foreach ($dayFolders as $day => $folder) {
+        $dayFile = "./$folder/" . strtolower($day) . ".php";
+        echo '<a class="day-link" href="' . $dayFile . '">' . $day . '</a>';
+    }
+    ?>
+</div>
 </body>
 </html>
