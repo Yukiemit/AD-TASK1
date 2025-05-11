@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 <body>
-    <h1>My Schedule</h1>'
+    <h1>My Schedule</h1>
     <div class="days-container">
         <?php
         $days = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'];
