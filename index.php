@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>My Schedule</title>
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 <body>
@@ -12,7 +12,9 @@
         <?php
         $days = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'];
         for ($i = 0; $i < count($days); $i++) {
-            echo '<a class="day-link" href="' . strtolower($days[$i]) . '.php">' . $days[$i] . '</a>';
+            $dayLower = strtolower($days[$i]);
+            $link = $dayLower === 'monday' ? './page/monday.php' : '#';
+            echo '<a class="day-link" href="' . $link . '">' . $days[$i] . '</a>';
         }
         ?>
     </div>
