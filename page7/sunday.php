@@ -3,21 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Friday</title>
-    <link rel="stylesheet" href="/AD-TASK1/page5/assets/css/style.css">
+    <title>Sunday</title>
+    <link rel="stylesheet" href="/AD-TASK1/page/assets7/css/style.css">
 </head>
 <body>
     <div class="container">
-        <h1>Friday Schedule</h1>
+        <h1>Sunday Schedule</h1>
         <div class="schedule">
             <?php
-            $day = "Friday";
+            $day = "Sunday";
             $schedule = [];
 
-            if ($day == "Friday") {
+            if ($day == "Sunday") {
                 $schedule = [
-                "7:00 AM - 8:50 AM | Technopreneur",
-                "10:00 AM - 12:50 PM | Business Process",
+                "7:00 AM - 9:00 AM | Workout",
+                "11:00 AM - 12:00 PM | Lunch",
+                "1:00 PM - 3:50 PM | Coding",
+                "4:00 PM - 5:00 PM | School works",
+                "6:00 PM - 7:00 | Church",
+                "8:00 PM - ONWARDS | Rest Time",
                 ];
             }
 

@@ -13,10 +13,10 @@
     $dayFolders = [
         "Monday" => "./page/monday.php",
         "Tuesday" => "./page2/tuesday.php",
-        "Wednesday" => "page3",
-        "Thursday" => "page4",
-        "Friday" => "page5",
-        "Saturday" => "page6",
+        "Wednesday" => "./page3/wednesday.php",
+        "Thursday" => "./page4/thursday.php",
+        "Friday" => "./page5/friday.php",
+        "Saturday" => "./page6/saturday.php",
         "Sunday" => "page7"
     ];
 
