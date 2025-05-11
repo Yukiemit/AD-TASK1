@@ -18,9 +18,9 @@
                 $schedule = [
                 "7:00 AM - 9:00 AM | Workout",
                 "11:00 AM - 12:00 PM | Lunch",
-                "1:00 PM - 3:50 PM | Coding"
-                "4:00 PM - 6:00 PM | School works"
-                "6:00 PM - ONWARDS | Rest time"
+                "1:00 PM - 3:50 PM | Coding",
+                "4:00 PM - 6:00 PM | School works",
+                "6:00 PM - ONWARDS | Rest time",
                 ];
             }
 
