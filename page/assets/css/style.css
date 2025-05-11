@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.schedule p {
+    background-color: #e0e0e0;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+    font-size: 1.1em;
+}
+
+a.day-link {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 15px;
+    color: #fff;
+    background-color: #007bff;
+    text-decoration: none;
+    border-radius: 5px;
+    text-align: center;
+}
+
+a.day-link:hover {
+    background-color: #0056b3;
+}
